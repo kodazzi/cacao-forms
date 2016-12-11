@@ -13,7 +13,11 @@ class CacaoFormsServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+        $this->loadViewsFrom(__DIR__.'/views', 'cacao');
+
+        $this->publishes([
+            __DIR__.'/views' => resource_path('views/vendor/cacao'),
+        ]);
     }
 
     /**

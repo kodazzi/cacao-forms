@@ -21,7 +21,7 @@ class FormBuilder extends InterfaceForm
     {
         if($widget->isDisplay())
         {
-            return view('cacao.forms.row', compact('widget'))->render();
+            return view('cacao::forms.row', compact('widget'))->render();
         }
 
         return '';
