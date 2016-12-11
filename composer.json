@@ -1,0 +1,21 @@
+{
+  "name": "kodazzi/cacao-forms",
+  "description": "Cacao Component",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jorge Gaitan",
+      "email": "kodazzi31@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "laravelcollective/html":"^5.2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kodazzi\\CacaoForms\\": "src/"
+    }
+  }
+}
